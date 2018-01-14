@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Positioning Challenge - 3 rows</title>
+    <style>
+        .row1 {
+            background-color: red;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .row2 {
+            background-color: red;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            float: left;
+        }
+
+        #row3-container {
+            clear: left;
+        }
+
+        .row3 {
+            background-color: red;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        #row3col2 {
+            position: relative;
+            left: 170px;
+            top: -170px;
+        }
+
+        #row3col3 {
+            position: relative;
+            left: 340px;
+            top: -340px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Positioning Challenge - 3 rows</h1>
+    <div id="row1-container">
+        <div class="row1"></div><div class="row1"></div><div class="row1"></div>
+    </div>
+    <div id="row2-container">
+        <div class="row2"></div>
+        <div class="row2"></div>
+        <div class="row2"></div>
+    </div>
+    <div id="row3-container">
+        <div class="row3" id="row3col1"></div>
+        <div class="row3" id="row3col2"></div>
+        <div class="row3" id="row3col3"></div>
+    </div>
+</body>
+
+</html>

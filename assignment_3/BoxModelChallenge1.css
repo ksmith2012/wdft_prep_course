@@ -1,0 +1,33 @@
+.box {
+    width: 200px;
+    padding: 10px 20px;
+    border: 2px dotted black;
+    margin: 30px;
+    background: DarkGrey;
+    color: white;
+    box-sizing: content-box;
+}
+
+#boxA {
+    margin: 30px;
+    border: 0px;
+    width: 200px;
+    background: DarkGrey;
+    padding: 20px;
+    box-sizing: content-box;
+
+}
+
+#boxB {
+    margin: 30px;
+    border: 20px solid DarkGrey;
+    padding: 0px;
+    width: 200px;
+    box-sizing: content-box;
+
+}
+
+img {
+    display: block;
+    width: 200px;
+}
